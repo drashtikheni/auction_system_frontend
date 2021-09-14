@@ -13,7 +13,7 @@ export default function PlaceList(props)
             <div className="place-list center">
                 <Card>
                     <h2 >No Auctions found. Maybe create one?</h2>
-                    <Button to="/auctions/new" >CREATE AUCTION?</Button>
+                    <Button to="/places/new" >CREATE AUCTION?</Button>
                 </Card>
             </div>
         )
